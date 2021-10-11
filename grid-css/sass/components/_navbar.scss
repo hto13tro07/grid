@@ -1,0 +1,28 @@
+.contenedor__menu{
+    grid-column: 1/6;
+    background-color:white;
+    color: black;
+    // border: solid black;
+}
+    .contenedor__menu--logo{
+     float: left;
+     display: inline-block;
+     padding-top: 30px;
+     text-align: center;
+    }
+    .contenedor__menu--nav{
+        float: right;
+    }
+li{
+    display: inline-block;
+    margin: 10px;
+    
+}
+li a{
+    text-decoration: none;
+}
+.tags ul {
+    padding: 0;
+    list-style: none;
+}
+
